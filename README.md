@@ -10,7 +10,7 @@
         <h1>VEGAN: A Vision-language and Edge-enhanced GAN-based Microscopic Medical Image Segmentation Model</h1>
         <p>
             This is the official GitHub repository corresponding to the research paper entitled <strong>VEGAN: A Vision-language and Edge-enhanced
-            GAN-based Microscopic Medical Image Segmentation Model</strong>. The research work has been accepted at the <em>2025 Mediterranean Conference on Embedded Computing (MECO)</em>.
+            GAN-based Microscopic Medical Image Segmentation Model</strong>. The research work has been accepted at the <b> <em>2025 Mediterranean Conference on Embedded Computing (MECO)</em></b>.
         </p>
         <div class="attachment">
             <strong>Attachment:</strong> The attachment below shows the detailed architecture of the proposed methodology.
