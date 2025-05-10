@@ -1,4 +1,4 @@
 # VEGAN
-This is the official GitHub repository corresponding to the research paper entitled LEECAU-Net: A Latent Entropy-quantized and Efficient Channel Attention-aided U-Net Model for Microscopic Medical Image Segmentation. The research work has been accepted at the 2024 International Conference on Progress in Informatics and Computing (PIC-2024).
-
+This is the official GitHub repository corresponding to the research paper entitled VEGAN: A Vision-language and Edge-enhanced
+GAN-based Microscopic Medical Image Segmentation Model. The research work has been accepted at the 2025 Mediterranean Conference on Embedded Computing (MECO).
 The attachment below shows the detailed architecture of the proposed methodology.
