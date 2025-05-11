@@ -47,4 +47,12 @@ The complete pipeline with the Attention U-Net, edge map, CBAM (Convolutional Bl
 
 CBAM will add channel and spatial attention, potentially improving the model's ability to focus on relevant regions.
 
+# Results
+| **Model** | **MoNuSeg Dice** | **MoNuSeg IoU** | **CNS Dice** | **CNS IoU** |
+|-----------|------------------|-----------------|--------------|-------------|
+| **1**     | 72.92            | 57.65           | 99.46        | 98.92       |
+| **2**     | 73.56            | 58.30           | 99.46        | 98.93       |
+| **3**     | 77.51            | 63.32           | 99.52        | 99.04       |
+| **4**     | **79.24**        | **65.68**       | **99.56**    | **99.12**   |
+
 
