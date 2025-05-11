@@ -21,26 +21,27 @@
 
 
 ![Image](https://github.com/user-attachments/assets/1d696da8-79d8-47ad-a05c-7ed51b36bbdf)
+#Model Architecture
 
-__Base Model: Attention U-Net__
+###Base Model: Attention U-Net
 
 Standard Attention U-Net without any additional inputs.
 
 Only the raw image is used as input.
 
-__Base Model + Edge Map__
+###Base Model + Edge Map
 
 Attention U-Net with an additional edge map as an input.
 
 The edge map could be a combination of Sobel, Canny, and Laplacian filters, as you've previously considered.
 
-__Base Model + Edge Map + VLM Extracted Feature Maps__
+###Base Model + Edge Map + VLM Extracted Feature Maps
 
 Attention U-Net with both edge maps and vision-language model (VLM) extracted features as inputs.
 
 The VLM features can be extracted using a model like BLIP, providing context-aware features to enhance segmentation.
 
-__Proposed Model (Base Model + Edge Map + CBAM + VLM Extracted Feature Maps)__
+###Proposed Model (Base Model + Edge Map + CBAM + VLM Extracted Feature Maps)
 
 The complete pipeline with the Attention U-Net, edge map, CBAM (Convolutional Block Attention Module), and VLM extracted features.
 
