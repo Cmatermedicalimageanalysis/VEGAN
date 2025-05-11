@@ -18,41 +18,32 @@
     </div>
 </body>
 </html>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Model Comparison</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body class="bg-gray-100 min-h-screen flex items-center justify-center p-6">
-    <div class="bg-white rounded-2xl shadow-xl w-full max-w-4xl p-8 space-y-6">
-        <h1 class="text-3xl font-bold text-center text-gray-800">Model Comparison</h1>
 
-        <div class="space-y-4">
-            <div class="bg-blue-50 p-6 rounded-xl border border-blue-200">
-                <h2 class="text-2xl font-semibold text-blue-700">1) Base Model: Attention U-Net</h2>
-                <p class="text-gray-700 mt-2">Standard Attention U-Net without any additional inputs. Only the raw image is used as input.</p>
-            </div>
-
-            <div class="bg-green-50 p-6 rounded-xl border border-green-200">
-                <h2 class="text-2xl font-semibold text-green-700">2) Base Model + Edge Map</h2>
-                <p class="text-gray-700 mt-2">Attention U-Net with an additional edge map as input. The edge map could be a combination of Sobel, Canny, and Laplacian filters.</p>
-            </div>
-
-            <div class="bg-yellow-50 p-6 rounded-xl border border-yellow-200">
-                <h2 class="text-2xl font-semibold text-yellow-700">3) Base Model + Edge Map + VLM Extracted Feature Maps</h2>
-                <p class="text-gray-700 mt-2">Attention U-Net with both edge maps and vision-language model (VLM) extracted features as inputs, providing context-aware features for enhanced segmentation.</p>
-            </div>
-
-            <div class="bg-red-50 p-6 rounded-xl border border-red-200">
-                <h2 class="text-2xl font-semibold text-red-700">4) Proposed Model</h2>
-                <p class="text-gray-700 mt-2">Base Model + Edge Map + CBAM Attention + VLM Extracted Feature Maps. Combines spatial, channel, and context-based attention for improved focus on relevant regions.</p>
-            </div>
-        </div>
-    </div>
-</body>
-</html>
 
 ![Image](https://github.com/user-attachments/assets/1d696da8-79d8-47ad-a05c-7ed51b36bbdf)
+
+__Base Model: Attention U-Net__
+
+Standard Attention U-Net without any additional inputs.
+
+Only the raw image is used as input.
+
+__Base Model + Edge Map__
+
+Attention U-Net with an additional edge map as an input.
+
+The edge map could be a combination of Sobel, Canny, and Laplacian filters, as you've previously considered.
+
+__Base Model + Edge Map + VLM Extracted Feature Maps__
+
+Attention U-Net with both edge maps and vision-language model (VLM) extracted features as inputs.
+
+The VLM features can be extracted using a model like BLIP, providing context-aware features to enhance segmentation.
+
+__Proposed Model (Base Model + Edge Map + CBAM + VLM Extracted Feature Maps)__
+
+The complete pipeline with the Attention U-Net, edge map, CBAM (Convolutional Block Attention Module), and VLM extracted features.
+
+CBAM will add channel and spatial attention, potentially improving the model's ability to focus on relevant regions.
+
+
